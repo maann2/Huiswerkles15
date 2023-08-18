@@ -1,0 +1,121 @@
+header, footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 960px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    padding: 5px;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    max-width: 960px;
+    margin: auto;
+    padding: 5px;
+}
+header a:link{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    text-decoration: none;
+    font-size: 19px;
+}
+header a:visited{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    text-decoration: none;
+    font-size: 19px;
+}
+header a:hover{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+#pasfoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+div{
+    margin: 10px 10px 10px 10px;
+    padding: 5px 
+}
+table{
+    width: 960px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    border-spacing: inherit; 
+}
+
+#table1 td, #table2 td{
+    padding:10px 5px;
+    text-align: center;
+}
+
+#table1 th, #table2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:black;
+    color: white;
+  }
+
+  #table1 tr:nth-child(even){background-color:white;}
+  #table2 tr:nth-child(even){background-color: white;}
+
+  input,button{
+    display: block;
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+  }
+  
+textarea{
+    display: block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    height: 100px;
+    width: 500px;
+}
+
+  button:active{
+    background-color: black;
+    color: white;
+  }
+
+  button:hover{
+    background-color: black;
+    color: white;
+  }
